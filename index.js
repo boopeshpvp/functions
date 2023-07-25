@@ -100,3 +100,10 @@ const divide=(a,b)=>{
         )
     }
     equalto(2,3)
+        const notequalto=(a,b)=>{
+        return (
+            console.log("notequal operator"),
+            console.log(a!==b)
+        )
+    }
+    equalto(2,3)

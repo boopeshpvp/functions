@@ -29,3 +29,11 @@ const division=(a,b)=>{
     )
 }
 division(10,2)
+
+const modulus=(a,b)=>{
+    return (
+        console.log("modulus"),
+        console.log(a%b)
+    )
+}
+modulus(10,2)

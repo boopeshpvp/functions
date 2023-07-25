@@ -5,3 +5,11 @@ return(
 )
 }
 addition(20,30)
+
+const subtraction=(a,b)=>{
+    return (
+        console.log("subtract"),
+        console.log(a-b)
+    )
+}
+subtraction (30,20)

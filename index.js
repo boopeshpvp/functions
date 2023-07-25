@@ -77,3 +77,11 @@ const divide=(a,b)=>{
             )
     }
     multiply (10,2)
+
+    const exponent=(a,b)=>{
+        return (
+            console.log("assignment exponent"),
+            console.log(a**=b)
+            )
+    }
+    exponent (10,2)

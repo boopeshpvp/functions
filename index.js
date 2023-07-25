@@ -21,3 +21,11 @@ const multiplication=(a,b)=>{
     )
 }
 multiplication(10,20)
+
+const division=(a,b)=>{
+    return (
+        console.log("division"),
+        console.log(a/b)
+    )
+}
+division(10,2)

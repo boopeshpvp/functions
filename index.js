@@ -60,3 +60,12 @@ const subtract=(a,b)=>{
     )
     }
     subtract(15,10)
+
+    
+const divide=(a,b)=>{
+    return (
+        console.log("assignment divide"),
+        console.log(a/=b)
+    )
+    }
+    divide(10,2)

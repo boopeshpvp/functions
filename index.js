@@ -52,3 +52,11 @@ return (
 )
 }
 add(5,10)
+
+const subtract=(a,b)=>{
+    return (
+        console.log("assignment subtract"),
+        console.log(a-=b)
+    )
+    }
+    subtract(15,10)

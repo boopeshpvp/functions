@@ -93,3 +93,10 @@ const divide=(a,b)=>{
         )
     }
     modulo(10,2)
+    const equalto=(a,b)=>{
+        return (
+            console.log("equal operator"),
+            console.log(a===b)
+        )
+    }
+    equalto(2,3)

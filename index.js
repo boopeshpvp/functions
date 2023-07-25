@@ -37,3 +37,11 @@ const modulus=(a,b)=>{
     )
 }
 modulus(10,2)
+
+const exponential=()=>{
+    return(
+        console.log("exponential"),
+        console.log(a**b)
+    )
+}
+exponential(2,3)

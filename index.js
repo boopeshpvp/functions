@@ -38,10 +38,17 @@ const modulus=(a,b)=>{
 }
 modulus(10,2)
 
-const exponential=()=>{
+const exponential=(a,b)=>{
     return(
         console.log("exponential"),
         console.log(a**b)
     )
 }
 exponential(2,3)
+const add=(a,b)=>{
+return (
+    console.log("assignment add"),
+    console.log(a+=b)
+)
+}
+add(5,10)

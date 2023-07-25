@@ -85,3 +85,11 @@ const divide=(a,b)=>{
             )
     }
     exponent (10,2)
+
+    const modulo=(a,b)=>{
+        return(
+            console.log("assignment modulo"),
+            console.log(a%=b)
+        )
+    }
+    modulo(10,2)

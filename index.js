@@ -69,3 +69,11 @@ const divide=(a,b)=>{
     )
     }
     divide(10,2)
+
+    const multiply=(a,b)=>{
+        return (
+            console.log("assignment multiply"),
+            console.log(a*=b)
+            )
+    }
+    multiply (10,2)

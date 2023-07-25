@@ -13,3 +13,11 @@ const subtraction=(a,b)=>{
     )
 }
 subtraction (30,20)
+
+const multiplication=(a,b)=>{
+    return (
+        console.log("multiply"),
+        console.log(a*b)
+    )
+}
+multiplication(10,20)

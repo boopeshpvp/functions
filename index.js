@@ -134,6 +134,12 @@ const divide=(a,b)=>{
     }
     addfun(3,4)
 
+    function showMessage(message) {
+        console.log(message);
+    }
+    let result = showMessage('Hello');
+    console.log('Result:', result);
+
 
 
     

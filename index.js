@@ -106,6 +106,11 @@ const divide=(a,b)=>{
             console.log(a!==b)
         )
     }
-    equalto(2,3)
+    notequalto(2,3)
+    
+    function greet(name) {
+        console.log("Hello " + name);
+    }
+    greet("Boopesh");
 
     

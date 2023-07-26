@@ -140,6 +140,11 @@ const divide=(a,b)=>{
     let result = showMessage('Hello');
     console.log('Result:', result);
 
+    function genRandom(min, max) {
+        return Math.floor(Math.random() * max) + min
+      }
+      
+      console.log(genRandom(1,10))
 
 
     

@@ -107,10 +107,22 @@ const divide=(a,b)=>{
         )
     }
     notequalto(2,3)
-    
+
     function greet(name) {
         console.log("Hello " + name);
     }
     greet("Boopesh");
+
+    function compare(a, b) {
+        if (a > b) {
+            console.log(-1);
+        } else if (a < b) {
+            console.log(1);
+        }
+        else{
+            console.log(0);
+        }
+    }
+    compare(10,20)
 
     
